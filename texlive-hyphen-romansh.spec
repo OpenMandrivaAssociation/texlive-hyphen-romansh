@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-hyphen-romansh
-Version:	20120809
+Version:	20120611
 Release:	1
 Summary:	Romansh hyphenation patterns
 Group:		Publishing
@@ -68,3 +68,11 @@ cat > %{buildroot}%{_texmf_language_lua_d}/hyphen-romansh <<EOF
 		hyphenation = '',
 	},
 EOF
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120611-1
++ Revision: 804811
+- Import texlive-hyphen-romansh
+- Import texlive-hyphen-romansh
+
