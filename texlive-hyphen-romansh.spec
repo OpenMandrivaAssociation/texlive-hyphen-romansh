@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hyphen-romansh
 Version:	20120611
-Release:	4
+Release:	5
 Summary:	Romansh hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
