@@ -33,6 +33,8 @@ Rumantscha (Romansh language society).
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/generic/hyph-utf8/loadhyph/*
+%{_texmfdistdir}/tex/generic/hyph-utf8/patterns/*/*
 %_texmf_language_dat_d/hyphen-romansh
 %_texmf_language_def_d/hyphen-romansh
 %_texmf_language_lua_d/hyphen-romansh
@@ -44,6 +46,9 @@ Rumantscha (Romansh language society).
 %build
 
 %install
+mkdir -p %{buildroot}%{_texmfdistdir}
+cp -fpar tex %{buildroot}%{_texmfdistdir}
+
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-romansh <<EOF
 \%% from hyphen-romansh:
