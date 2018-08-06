@@ -68,11 +68,3 @@ cat > %{buildroot}%{_texmf_language_lua_d}/hyphen-romansh <<EOF
 		hyphenation = '',
 	},
 EOF
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120611-1
-+ Revision: 804811
-- Import texlive-hyphen-romansh
-- Import texlive-hyphen-romansh
-
