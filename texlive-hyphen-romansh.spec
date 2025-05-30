@@ -1,6 +1,6 @@
 Name:		texlive-hyphen-romansh
-Version:	58652
-Release:	2
+Version:	74115
+Release:	1
 Summary:	Romansh hyphenation patterns
 Group:		Publishing
 URL:		https://tug.org/texlive
